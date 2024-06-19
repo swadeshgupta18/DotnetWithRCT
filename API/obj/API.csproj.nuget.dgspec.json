@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\swadesh\\swadotnet\\API\\API.csproj": {}
+    "C:\\Users\\swadesh\\swadotnet\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\swadesh\\swadotnet\\API\\API.csproj": {
+    "C:\\Users\\swadesh\\swadotnet\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\swadesh\\swadotnet\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\swadesh\\swadotnet\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\swadesh\\swadotnet\\API\\API.csproj",
+        "projectPath": "C:\\Users\\swadesh\\swadotnet\\api\\API.csproj",
         "packagesPath": "C:\\Users\\swadesh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\swadesh\\swadotnet\\API\\obj\\",
+        "outputPath": "C:\\Users\\swadesh\\swadotnet\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\swadesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.20, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
